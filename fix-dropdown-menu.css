@@ -1,0 +1,59 @@
+/*csslint order-alphabetical: false, box-model: false*/
+
+
+/*  css specificity */
+/*  */
+/* a main menu-n beluli menu item */
+/* .main-menu .main-menu-item { */
+/*     color: blue; */
+/* } */
+/*  */
+/* .main-menu-item { */
+/*     color: black; */
+/* } */
+/*  */
+/* az az elem aminek mindkettő class-a megvan:  */
+/* .main-menu-item.elso-menupont  { */
+/*     color: red; */
+/*  */
+/* } */
+
+main {
+    background-color: lightblue;
+    /* tudjuk hogy a padding megnöveli az elem szélességét! */
+    padding: 30px;
+    width: 900px;
+    /* ha csak kettő értéket kap a margin vagy a padding, akkor  */
+    /* az első érték alul-fölül, a második jobbra-balra  */
+    margin: 0 auto;
+}
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 25px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.main-menu-container {
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    /* ez is kell ahhoz hogy a main-menu kozepen legyen */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.main-menu-item {
+    display: inline-block;
+    padding: 20px 10px;
+    background-color: blue;
+    color: white;
+}
